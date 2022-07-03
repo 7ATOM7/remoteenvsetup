@@ -9,7 +9,7 @@ terraform {
 
 
 provider "digitalocean" {
-    token = var.do_token
+    token = var.DOTOKEN
 }
 
 data "digitalocean_ssh_key" "do_infra" {
